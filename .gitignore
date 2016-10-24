@@ -3,3 +3,10 @@
 .settings
 target
 classes/
+.classpath
+.tern-project
+.niogit
+gwt-unitCache
+magritte-showcase/magritte-webapp/src/main/webapp/WEB-INF/lib/
+magritte-showcase/magritte-webapp/src/main/webapp/com.rhc.MagritteShowcase/
+magritte-showcase/magritte-webapp/src/main/webapp/WEB-INF/beans.xml
