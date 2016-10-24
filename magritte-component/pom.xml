@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.rhc</groupId>
+    <artifactId>magritte-parent-with-dependencies</artifactId>
+    <version>1.0-SNAPSHOT-Dpackage=com.rhc</version>
+    <relativePath>../magritte-parent-with-dependencies/pom.xml</relativePath>
+  </parent>
+
+  <artifactId>magritte-component</artifactId>
+  <packaging>pom</packaging>
+
+  <name>Magritte Component</name>
+  <modules>
+    <module>magritte-component-api</module>
+    <module>magritte-component-backend</module>
+    <module>magritte-component-client</module>
+  </modules>
+</project>
